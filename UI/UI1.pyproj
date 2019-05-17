@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{b16e1733-7667-4b88-afb7-3009f9691603}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>Login.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="3.png" />
+    <Content Include="faded updated.png" />
+    <Content Include="faded.png" />
+    <Content Include="faded1.png" />
+    <Content Include="p1.jpg" />
+    <Content Include="p10.jpg" />
+    <Content Include="p2.jpg" />
+    <Content Include="p3.jpg" />
+    <Content Include="p4.jpg" />
+    <Content Include="p5.jpg" />
+    <Content Include="p6.jpg" />
+    <Content Include="p7.jpg" />
+    <Content Include="p8.jpg" />
+    <Content Include="p9.jpg" />
+    <Content Include="sayn2.qrc.png" />
+    <Content Include="unfaded.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Login.py" />
+    <Compile Include="registration.py" />
+    <Compile Include="Reset.py" />
+    <Compile Include="Secondary.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
